@@ -7,7 +7,6 @@ export const ReconageContainer = styled.div`
     flex-direction: row;
     justify-content: space-between;
     align-items: start;
-    height: 100vh;
     width: 100%;
     color: #d0d7de;
 `;

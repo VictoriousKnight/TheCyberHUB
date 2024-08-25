@@ -8,7 +8,6 @@ import PassGen from "./PassGen/PassGen";
 import EncoderMain from "./EncoderDecoder.jsx/EncoderMain";
 import GtfoBin from "./BinaryExploits/BinaryExploits";
 import DataPage from "./BinaryExploits/DataPages";
-import Dorking from "./Dorking/Dorking";
 import GoogleDorks from "./GoogleDork/GoogleDorkMain";
 import IPInfo from "src/components/Tools/IPInfo.jsx";
 import SubdomainGenerator from "src/components/Tools/SubdomainGenerator.jsx";
@@ -30,8 +29,6 @@ const ToolsRoutes = () => {
             <Route path={"/ipinfo/"} element={<IPInfo />} />
             <Route path={"/subdomain-generator/"} element={<SubdomainGenerator />} />
             <Route path={"/markdown-editor/"} element={<MarkdownEditor />} />
-
-            <Route path={"/dorking"} element={<Dorking />} />
 
             {/* <Route path={"portScanner"} element={<PortScanner/>}/> */}
             <Route path={"*"} element={<NotFound />} />
